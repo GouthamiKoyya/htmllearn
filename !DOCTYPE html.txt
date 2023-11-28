@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Use JavaScript to change Text</h1>
+<p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementsById("demo").innerHTML ="Hello JavaScript!";
+</script>
+
+</body>
+</html>

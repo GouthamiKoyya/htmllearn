@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Use of the class Attribute in JavaScript</h1>
+<p>Click the button to hide all elements with class name "MY FAV":</p>
+
+<button onclick="myFunction()">Hide elements</button>
+
+<h1 class="MY FAV">Icecream</h1>
+<p>Icream is choclate.</p>
+
+<h1 class="MY FAV">Choclate</h1>
+<p>Choclate is Silk.</p>
+
+<script>
+function myFunction() {
+   var x=document.getElementsByClassName("MY FAV");
+   for (var i=0; i<x.length;i++){
+    x[i].style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
